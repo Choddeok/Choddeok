@@ -29,7 +29,7 @@ Department of Artificial Intelligence Korea University, Seoul, South Korea
 ## 📑 Research Publications
 - **D.-H. Cho**, H.-S. Oh, S.-B. Kim, S.-H. Lee, and S.-W. Lee, “Emosphere-tts: Emotional style and intensity modeling via spherical emotion vector for controllable emotional text-to-speech,” in Proc. Conference of the International Speech Communication Association (INTERSPEECH), 2024. [[Paper]](https://arxiv.org/pdf/2406.07803) [[Code]](https://github.com/Choddeok/EmoSphere-TTS) [[Demo]](https://emosphere-tts.github.io/)
 
-- J.-E. Lee, S.-B. Kim, **D.-H. Cho**, S.-H. Lee, and S.-W. Lee, “Promoticon: Prompt-based emotion controllable text-to-speech via prompt generation and matching,” in Proc. IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2024.
+- J.-E. Lee, S.-B. Kim, **D.-H. Cho**, and S.-W. Lee, “Promoticon: Prompt-based emotion controllable text-to-speech via prompt generation and matching,” in Proc. IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2024.
 
 - H.-S. Oh, S.-H. Lee, **D.-H. Cho**, and S.-W. Lee, “Durflex-evc: Duration-flexible emotional voice conversion with parallel generation,” in (Under Review), 2024. [[Paper]](https://arxiv.org/pdf/2401.08095) [[Code]](https://github.com/hs-oh-prml/DurFlexEVC?tab=readme-ov-file) [[Demo]](https://prml-lab-speech-team.github.io/durflex/)
 
