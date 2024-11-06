@@ -33,7 +33,7 @@ Department of Artificial Intelligence Korea University, Seoul, South Korea
 
 - H.-S. Oh, S.-H. Lee, **D.-H. Cho**, and S.-W. Lee, “Durflex-evc: Duration-flexible emotional voice conversion with parallel generation,” in (Under Review), 2024. [[Paper]](https://arxiv.org/pdf/2401.08095) [[Code]](https://github.com/hs-oh-prml/DurFlexEVC?tab=readme-ov-file) [[Demo]](https://prml-lab-speech-team.github.io/durflex/)
 
-- **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “EmoSphere++: Emotion-Controllable Zero-Shot Text-to-Speech via Emotion-Adaptive Spherical Vector,” in (Under Review), 2024. [[Paper]]() [[Code]](https://github.com/Choddeok/EmoSpherepp) [[Demo]](https://choddeok.github.io/EmoSphere-Demo/)
+- **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “EmoSphere++: Emotion-Controllable Zero-Shot Text-to-Speech via Emotion-Adaptive Spherical Vector,” in (Under Review), 2024. [[Paper]](https://arxiv.org/abs/2411.02625) [[Code]](https://github.com/Choddeok/EmoSpherepp) [[Demo]](https://choddeok.github.io/EmoSphere-Demo/)
 
 ## 🏆 Awards and Achievements
 - [2021] Excellence Award in the Credit Card User Delinquency Prediction AI Competition, organized by Hanyang University on Dacon.
