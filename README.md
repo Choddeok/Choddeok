@@ -28,7 +28,7 @@ Department of Artificial Intelligence Korea University, Seoul, South Korea
 
 ## 📑 Research Publications
 **[2025]**
-- **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “EmoSphere++: Emotion-Controllable Zero-Shot Text-to-Speech via Emotion-Adaptive Spherical Vector,” *in (Under Review)*, 2025. [[Paper]](https://arxiv.org/abs/2411.02625) [[Code]](https://github.com/Choddeok/EmoSpherepp) [[Demo]](https://choddeok.github.io/EmoSphere-Demo/)
+- **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “EmoSphere++: Emotion-Controllable Zero-Shot Text-to-Speech via Emotion-Adaptive Spherical Vector,” *in Proc. IEEE Transactions on Affective Computing (TAFFC)*, 2025. [[Paper]](https://arxiv.org/abs/2411.02625) [[Code]](https://github.com/Choddeok/EmoSpherepp) [[Demo]](https://choddeok.github.io/EmoSphere-Demo/)
 
 - H.-S. Oh, S.-H. Lee, **D.-H. Cho**, and S.-W. Lee, “DurFlex-EVC: Duration-Flexible Emotional Voice Conversion Leveraging Discrete Representations Without Text Alignment,” *in Proc. IEEE Transactions on Affective Computing (TAFFC)*, 2025. [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10844546) [[Code]](https://github.com/hs-oh-prml/DurFlexEVC?tab=readme-ov-file) [[Demo]](https://prml-lab-speech-team.github.io/durflex/)
 
