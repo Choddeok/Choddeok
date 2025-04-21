@@ -13,7 +13,7 @@ Department of Artificial Intelligence Korea University, Seoul, South Korea
   
   - Participated in debugging and development of the REX program in the Development Department.
  
-- **[2022 – 2022] Visang Education (Intern)**
+- **[2021 – 2021] Visang Education (Intern)**
 
   - Assisted with data entry, validation, analysis, and report creation for the E-Learning Content Planning Department.
  
