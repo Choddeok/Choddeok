@@ -18,13 +18,13 @@ Department of Artificial Intelligence Korea University, Seoul, South Korea
   - Assisted with data entry, validation, analysis, and report creation for the E-Learning Content Planning Department.
  
 ## 🌱 Education
-- **[2016 – 2022] Hanyang University, Ansan, South Korea.**
-
-  - B.S. degree in Applied Mathematics.
- 
 - **[2022 – ] Korea University, Seoul, South Korea.**
 
   - Integrated M.S.&Ph.D. in Artificial Intelligence in [Pattern Recognition & Machine Learning Lab](http://ibi.korea.ac.kr/sub2_1.php?code=LSW), under the supervision of Seong-Whan Lee.
+  - 
+- **[2016 – 2022] Hanyang University, Ansan, South Korea.**
+
+  - B.S. degree in Applied Mathematics.
 
 ## 📑 Research Publications
 **[2025]**
