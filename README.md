@@ -46,9 +46,11 @@
 
 - **[2022 – ] Korea University, Seoul, South Korea.**
   - Integrated M.S.&Ph.D. in Artificial Intelligence in [Pattern Recognition & Machine Learning Lab](http://ibi.korea.ac.kr/sub2_1.php?code=LSW), under the supervision of Seong-Whan Lee.
+  - GPA: 4.19 / 4.50
   
 - **[2016 – 2022] Hanyang University, Ansan, South Korea.**
   - B.S. degree in Applied Mathematics.
+  - GPA: 4.40 / 4.50
 
 ## 📑 Research Publications
 
