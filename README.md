@@ -73,6 +73,6 @@
 ## 🏆 Awards & Achievements
 
 - 🥇 **Excellence Award** (2021)  
-  Credit Card User Delinquency Prediction AI Competition — Hanyang University; Dacon
+  Credit Card User Delinquency Prediction AI Competition — Hanyang University & Dacon
 
 
