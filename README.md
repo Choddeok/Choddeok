@@ -1,7 +1,7 @@
 
 ![welcome little one!](https://github.com/user-attachments/assets/290ce339-84ca-4028-b82c-0929853f590a)
 
-<h1 align="center">Deok-Hyeon Cho</h1>
+<h1 align="center">Deok-Hyeon Cho (조덕현) </h1>
 
 <p align="center">
   <a href="mailto:dh_cho@korea.ac.kr">
