@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/user-attachments/files/19997298/Deok-HyeonCho_CV.pdf"
+  <a href="https://github.com/user-attachments/files/20328954/250520_CV.pdf"
      target="_blank" rel="noopener">
     <strong>Download CV</strong>
   </a>
