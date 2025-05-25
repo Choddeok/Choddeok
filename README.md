@@ -10,7 +10,7 @@
   <a href="https://scholar.google.co.kr/citations?user=cynqcHwAAAAJ&hl=ko">
     <img src="https://img.shields.io/badge/Google%20Scholar-Profile-orange?style=flat&logo=google-scholar" alt="Google Scholar Badge"/>
   </a>
-  <a href="https://www.linkedin.com/in/deok-hyeon-cho-7b5222204/">
+  <a href="https://www.linkedin.com/in/deokhyeon-cho-7b5222204">
     <img
       src="https://img.shields.io/badge/LinkedIn-Deok–Hyeon%20Cho-0077B5?style=flat&logo=linkedin&logoColor=white"
       alt="LinkedIn Badge"
