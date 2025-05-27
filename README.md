@@ -57,13 +57,13 @@
 
 **[2025]**
 - **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “DiEmo-TTS: Disentangled Emotion Representations via Self-Supervised Distillation for Cross-Speaker Emotion Transfer in Text-to-Speech,” *in Proc. Conference of the International Speech Communication Association (INTERSPEECH)*, 2025.
-   - [[📄 Paper]]() [[💻 Code]](https://github.com/Choddeok/DiEmoTTS) [[🎤 Demo]](https://emodemopage.github.io/DiEmo-TTS-Demo/)
+   - [[📄 Paper]](https://arxiv.org/abs/2505.19687) [[💻 Code]](https://github.com/Choddeok/DiEmoTTS) [[🎤 Demo]](https://emodemopage.github.io/DiEmo-TTS-Demo/)
 
 - N.-G. Kim, **D.-H. Cho**, S.-B. Kim, and S.-W. Lee, “Spotlight-TTS: Spotlighting the Style via Voiced-Aware Style Extraction and Style Direction Adjustment for Expressive Text-to-Speech,” *in Proc. Conference of the International Speech Communication Association (INTERSPEECH)*, 2025.
    - [[📄 Paper]]() [[🎤 Demo]](https://spotlight-tts.github.io/)
 
 - **D.-H. Cho***, H.-S. Oh*, S.-B. Kim*, and S.-W. Lee, “EmoSphere-SER: Enhancing Speech Emotion Recognition through Spherical Representation with Auxiliary Classification,” *in Proc. Conference of the International Speech Communication Association Challenge (Speech Emotion Recognition in Naturalistic Conditions Challenge)*, 2025.
-   - [[📄 Paper]]() [[💻 Code]](https://github.com/Choddeok/EmoSphereSER)
+   - [[📄 Paper]](https://arxiv.org/abs/2505.19693) [[💻 Code]](https://github.com/Choddeok/EmoSphereSER)
 
 - **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “EmoSphere++: Emotion-Controllable Zero-Shot Text-to-Speech via Emotion-Adaptive Spherical Vector,” *in Proc. IEEE Transactions on Affective Computing (TAFFC)*, 2025. ![](https://img.shields.io/badge/2023--JCR--IF-9.6-red) ![](https://img.shields.io/badge/JIF%20Top%201.6%25-red)
    - [[📄 Paper]](https://ieeexplore.ieee.org/document/10965917) [[💻 Code]](https://github.com/Choddeok/EmoSpherepp) [[🎤 Demo]](https://choddeok.github.io/EmoSphere-Demo/)
