@@ -60,7 +60,7 @@
    - [[📄 Paper]](https://arxiv.org/abs/2505.19687) [[💻 Code]](https://github.com/Choddeok/DiEmoTTS) [[🎤 Demo]](https://emodemopage.github.io/DiEmo-TTS-Demo/)
 
 - N.-G. Kim, **D.-H. Cho**, S.-B. Kim, and S.-W. Lee, “Spotlight-TTS: Spotlighting the Style via Voiced-Aware Style Extraction and Style Direction Adjustment for Expressive Text-to-Speech,” *in Proc. Conference of the International Speech Communication Association (INTERSPEECH)*, 2025.
-   - [[📄 Paper]]() [[🎤 Demo]](https://spotlight-tts.github.io/)
+   - [[📄 Paper]](https://arxiv.org/abs/2505.20868) [[🎤 Demo]](https://spotlight-tts.github.io/)
 
 - **D.-H. Cho***, H.-S. Oh*, S.-B. Kim*, and S.-W. Lee, “EmoSphere-SER: Enhancing Speech Emotion Recognition through Spherical Representation with Auxiliary Classification,” *in Proc. Conference of the International Speech Communication Association Challenge (Speech Emotion Recognition in Naturalistic Conditions Challenge)*, 2025.
    - [[📄 Paper]](https://arxiv.org/abs/2505.19693) [[💻 Code]](https://github.com/Choddeok/EmoSphereSER)
