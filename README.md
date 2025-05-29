@@ -84,4 +84,10 @@
 - 🥇 **Excellence Award** (2021)  
   Credit Card User Delinquency Prediction AI Competition — Hanyang University & Dacon
 
+- Reviewer: IEEE International Conference on Systems, Man, and Cybernetics (SMC)
 
+## 📑 Patents (KR)
+
+- Method, Device, and Program for synthesizing voices Expressing emotions Based on Prompts, 10-2024-0099370.
+
+- Emotional Expression Voice Generation Apparatus and Method Capable of Controlling Emotional Style and Intensity Using Continuous Emotional Dimensions, 10-2024-0029066.
