@@ -87,6 +87,7 @@
 - Reviewer: IEEE International Conference on Systems, Man, and Cybernetics (SMC)
 
 ## 📑 Patents (KR)
+- Apparatus and Method for Speech Synthesis, 10-2025-0088028.
 
 - Method, Device, and Program for synthesizing voices Expressing emotions Based on Prompts, 10-2024-0099370.
 
