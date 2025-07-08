@@ -7,7 +7,7 @@
   <a href="mailto:dh_cho@korea.ac.kr">
     <img src="https://img.shields.io/badge/Email-dh_cho%40korea.ac.kr-blue?style=flat&logo=gmail" alt="Email Badge"/>
   </a>
-  <a href="https://scholar.google.co.kr/citations?user=cynqcHwAAAAJ&hl=ko">
+  <a href="https://scholar.google.co.kr/citations?user=cynqcHwAAAAJ&hl=en">
     <img src="https://img.shields.io/badge/Google%20Scholar-Profile-orange?style=flat&logo=google-scholar" alt="Google Scholar Badge"/>
   </a>
   <a href="https://www.linkedin.com/in/deokhyeon-cho-7b5222204">
