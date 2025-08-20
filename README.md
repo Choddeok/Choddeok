@@ -18,7 +18,7 @@
   </a>
 </p>
 
-<p align="center"><em>Integrated M.S.&amp;Ph.D Student, Department of Artificial Intelligence, Korea University</em></p>
+<p align="center"><em>Ph.D. Candidate, Department of Artificial Intelligence, Korea University</em></p>
 
 <p align="center">
   <strong>Research in Affective Computing:</strong><br/>
