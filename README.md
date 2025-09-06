@@ -54,7 +54,6 @@
 
 ## 📑 Research Publications
 
-
 **[2025]**
 - **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “DiEmo-TTS: Disentangled Emotion Representations via Self-Supervised Distillation for Cross-Speaker Emotion Transfer in Text-to-Speech,” *in Proc. Conference of the International Speech Communication Association (INTERSPEECH)*, 2025.
    - [[📄 Paper]](https://arxiv.org/abs/2505.19687) [[💻 Code]](https://github.com/Choddeok/DiEmoTTS) [[🎤 Demo]](https://choddeok.github.io/DiEmo-TTS-Demo/)
@@ -78,6 +77,11 @@
 - **D.-H. Cho**, H.-S. Oh, S.-B. Kim, S.-H. Lee, and S.-W. Lee, “EmoSphere-TTS: Emotional Style and Intensity Modeling via Spherical Emotion Vector for Controllable Emotional Text-to-Speech,” *in Proc. Conference of the International Speech Communication Association (INTERSPEECH)*, 2024.
    - [[📄 Paper]](https://www.isca-archive.org/interspeech_2024/cho24_interspeech.html) [[💻 Code]](https://github.com/Choddeok/EmoSphere-TTS) [[🎤 Demo]](https://emosphere-tts.github.io/)
 
+
+## 💻 Research Projects
+- A Study on Nonverval (Filler) Speech
+   - Institution: Samsung Research, Korea
+   - Duration: May. 2024 ~ Dec. 2024
 
 ## 🏆 Awards & Achievements
 
