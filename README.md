@@ -91,6 +91,10 @@
 - Reviewer: IEEE International Conference on Systems, Man, and Cybernetics (SMC)
 
 ## 📑 Patents (KR)
+- Method for Cross-Speaker Emotion Transfer in Text-to-Speech Using Disentangled Emotion Representations via Self-Supervised Distillation, 10-2025-0130127.
+
+- Method and System for Expressive Text-to-Speech via Voiced-Aware Style Extraction and Style Direction Adjustment, 10-2025-0116457.
+
 - Apparatus and Method for Speech Synthesis, 10-2025-0088028.
 
 - Method, Device, and Program for synthesizing voices Expressing emotions Based on Prompts, 10-2024-0099370.
