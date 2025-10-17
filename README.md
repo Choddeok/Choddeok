@@ -88,7 +88,7 @@
 - 🥇 **Excellence Award** (2021)  
   Credit Card User Delinquency Prediction AI Competition — Hanyang University & Dacon
 
-- Reviewer: IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+- Reviewer: IEEE International Conference on Acoustics Speech and Signal Processing (ICASSP), IEEE International Conference on Systems, Man, and Cybernetics (SMC)
 
 ## 📑 Patents (KR)
 - Method for Cross-Speaker Emotion Transfer in Text-to-Speech Using Disentangled Emotion Representations via Self-Supervised Distillation, 10-2025-0130127.
