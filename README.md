@@ -26,11 +26,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/user-attachments/files/20328954/250520_CV.pdf"
+  <a href="https://github.com/user-attachments/files/23016613/251021_CV.pdf"
      target="_blank" rel="noopener">
     <strong>Download CV</strong>
   </a>
 </p>
+
 
 ## 💼 Employment History
 
