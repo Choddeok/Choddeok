@@ -35,11 +35,11 @@
 
 ## 💼 Employment History
 
-- **[RexSoft](https://rexsoft.org/) (Intern) | Development Department (2022)**  
+- **[2022] [RexSoft](https://rexsoft.org/) (Intern) | Development Department**  
    - Debugged and enhanced the REX program
 
 
-- **[Visang Education](https://www.visang.com/pageLoad?page_id=/en/main) (Intern) | E-Learning Content Planning Department (2021)**  
+- **[2021] [Visang Education](https://www.visang.com/pageLoad?page_id=/en/main) (Intern) | E-Learning Content Planning Department (2021)**  
    - Managed data entry, validation, analysis, and report creation
 
 
@@ -84,10 +84,18 @@
    - Institution: Samsung Research, Korea
    - Duration: May. 2024 ~ Dec. 2024
 
+#### 2. Cross-speaker controllable emotion transfer TTS (Voltron)
+   - Institution: Thomas Crown, USA
+   - Duration: Oct. 2025
+
 ## 🏆 Awards & Achievements
 
-- 🥇 **Excellence Award** (2021)  
+- [2021] **Excellence Award**  
   Credit Card User Delinquency Prediction AI Competition — Hanyang University & Dacon
+
+- [2025] **Excellence Award**  
+  Extreme-Noise Speech Recognition & Restoration AI Model Development Competition [(AI Frontier Challenge)](https://aiassociation.kr/board/board.asp?b_code=243&Action=content&GotoPage=1&B_CATE=BBS1) — Korea Artificial Intelligence Association (KAIA)
+
 
 - Reviewer: IEEE International Conference on Acoustics Speech and Signal Processing (ICASSP), IEEE International Conference on Systems, Man, and Cybernetics (SMC)
 
