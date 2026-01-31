@@ -56,7 +56,7 @@
 
 **[2026]**
 - H.-S. Oh, **D.-H. Cho**, S.-B. Kim, and S.-W. Lee, “Toward Complex-Valued Neural Networks for Waveform Generation,” *in Proc. Conference of the International Conference on Learning Representations (ICLR)*, 2026.
-   - [[📄 Paper]](https://openreview.net/forum?id=U4GXPqm3Va) [[💻 Code]]() [[🎤 Demo]]()
+   - [[📄 Paper]](https://openreview.net/forum?id=U4GXPqm3Va) [[💻 Code]](https://github.com/hs-oh-prml/ComVo) [[🎤 Demo]](https://hs-oh-prml.github.io/ComVo/)
 
 **[2025]**
 - **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “DiEmo-TTS: Disentangled Emotion Representations via Self-Supervised Distillation for Cross-Speaker Emotion Transfer in Text-to-Speech,” *in Proc. Conference of the International Speech Communication Association (INTERSPEECH)*, 2025.
