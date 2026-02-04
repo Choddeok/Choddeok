@@ -100,7 +100,7 @@
   Extreme-Noise Speech Recognition & Restoration AI Model Development Competition [(AI Frontier Challenge)](https://aiassociation.kr/board/board.asp?b_code=243&Action=content&GotoPage=1&B_CATE=BBS1) — Korea Artificial Intelligence Association (KAIA)
 
 
-- Reviewer: Transactions on Affective Computing (TAFFC), IEEE International Conference on Acoustics Speech and Signal Processing (ICASSP), IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+- Reviewer: Transactions on Affective Computing (TAFFC), IEEE International Conference on Acoustics Speech and Signal Processing (ICASSP), IEEE Signal Processing Letters (SPL), and IEEE International Conference on Systems, Man, and Cybernetics (SMC)
 
 ## 📑 Patents (KR)
 - Method for Cross-Speaker Emotion Transfer in Text-to-Speech Using Disentangled Emotion Representations via Self-Supervised Distillation, 10-2025-0130127.
