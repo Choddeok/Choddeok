@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Deok-Hyeon Cho</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<style>
+
+/* GLOBAL */
+
+:root{
+  --text:#111111;
+  --text-soft:#4b5563;
+  --line:#e8edf3;
+  --line-strong:#dfe6ee;
+  --blue:#2563eb;
+  --bg-soft:#f8fafc;
+}
+
+body{
+  font-family:'Inter',sans-serif;
+  margin:0;
+  background:#fff;
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:0 24px 40px;
+}
+
+/* NAVBAR */
+.navbar{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  background:rgba(255,255,255,0.92);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  display:flex;
+  justify-content:center;
+  z-index:1000;
+  border-bottom:2px solid #e5e7eb;
+}
+
+.navbar-inner{
+  width:100%;
+  max-width:900px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 20px 14px;
+}
+
+.logo{
+  font-weight:700;
+  font-size:18px;
+  text-decoration:none;
+  color:#111;
+  letter-spacing:-0.02em;
+}
+
+.nav-links{
+  display:flex;
+  align-items:center;
+}
+
+.nav-links a{
+  margin-left:24px;
+  text-decoration:none;
+  color:#374151;
+  font-weight:500;
+  transition:color .2s ease;
+}
+
+.nav-links a:hover{
+  color:var(--blue);
+}
+
+/* SECTION */
+
+section{
+  padding:72px 0;
+  scroll-margin-top:84px;
+}
+
+#about{
+  padding-top:120px;
+  padding-bottom:40px;
+}
+
+#experience{
+  padding-top:6px;
+  padding-bottom:28px;
+}
+
+#news{
+  padding-top:34px;
+  padding-bottom:56px;
+}
+
+/* ABOUT */
+
+.about-container{
+  display:flex;
+  gap:44px;
+  align-items:center;
+}
+
+.about-img{
+  flex:0 0 220px;
+}
+
+.about-img img{
+  width:220px;
+  border-radius:16px;
+  display:block;
+  box-shadow:0 10px 30px rgba(15,23,42,0.08);
+}
+
+.about-text{
+  flex:1;
+  max-width:640px;   /* 기존보다 넓게 */
+}
+
+.name-title{
+  font-family:'Sora',sans-serif;
+  font-size:38px;
+  font-weight:700;
+  letter-spacing:-1px;
+  margin:0 0 18px;
+  line-height:1.12;
+}
+
+.about-text p{
+  font-size:15px;
+  line-height:1.9;
+  color:var(--text-soft);
+  margin:0 0 14px;
+}
+
+.about-text strong{
+  color:var(--text);
+}
+
+.research-interest{
+  max-width:620px;
+}
+
+.research-interest br{
+  display:block;
+  content:"";
+  margin-bottom:2px;
+}
+
+.icon-links{
+  margin-top:18px;
+  display:flex;
+  align-items:center;
+  gap:16px;
+  flex-wrap:wrap;
+}
+
+.icon-links a{
+  font-size:21px;
+  color:#374151;
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:36px;
+  height:36px;
+  border-radius:10px;
+  transition:0.2s ease;
+}
+
+.icon-links a:hover{
+  color:var(--blue);
+  background:#eff6ff;
+  transform:translateY(-2px);
+}
+
+.cursor{
+  display:inline-block;
+  width:2px;
+  height:1em;
+  background:#111;
+  margin-left:4px;
+  animation:blink 1s infinite;
+}
+
+@keyframes blink{
+  0%{opacity:1}
+  50%{opacity:0}
+  100%{opacity:1}
+}
+
+/* EXPERIENCE */
+
+.exp-container{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:0px;
+  margin-top:0;
+  text-align:center;
+  align-items:stretch;
+}
+
+.exp-card{
+  padding:14px 11px 12px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:rgba(248,250,252,0.62);
+  box-shadow:0 8px 24px rgba(15,23,42,0.04);
+  transition:transform .28s ease, box-shadow .28s ease, border-color .28s ease, opacity .6s ease;
+}
+
+.exp-card img{
+  height:100px;              /* 사진 더 크게 */
+  width:auto;
+  max-width:150px;           /* 너무 넓어지지 않게 제한 */
+  margin:0 auto 8px;        /* 가운데 정렬 + 아래 간격 축소 */
+  display:block;
+  object-fit:contain;
+}
+
+.exp-card h3{
+  font-size:14px;
+  margin:4px auto 6px;
+  line-height:1.3;
+  max-width:150px;           /* 이미지 가로폭 정도로 제한 */
+}
+
+.exp-card p{
+  font-size:12px;
+  color:#4b5563;
+  margin:0 auto 6px;
+  line-height:1.45;
+  max-width:150px;           /* 이미지 폭에 맞춰 텍스트 폭 제한 */
+  min-height:auto;          /* 강제 높이 제거 */
+}
+
+.exp-card span{
+  display:block;
+  font-size:11px;
+  color:#8a94a6;
+  max-width:150px;           /* 날짜도 같은 폭 */
+  margin:0 auto;
+}
+
+.exp-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 14px 30px rgba(37,99,235,0.09);
+  border-color:#d6e4ff;
+}
+
+/* News */
+.news-box{
+  max-height:180px;          /* 박스 높이 제한 */
+  overflow-y:auto;           /* 세로 스크롤 */
+  border:1px solid var(--line-strong);
+  padding:12px 16px;
+  border-radius:14px;
+  background:#fcfcfd;
+}
+
+.news-box ul{
+  margin:0;
+  padding-left:18px;
+}
+
+.news-box li{
+  line-height:1.8;
+  color:var(--text-soft);
+}
+
+.news-box::-webkit-scrollbar{
+  width:8px;
+}
+
+.news-box::-webkit-scrollbar-thumb{
+  background:#d1d5db;
+  border-radius:999px;
+}
+
+.news-box::-webkit-scrollbar-track{
+  background:transparent;
+}
+/* RESEARCH */
+
+#research h2{
+  margin-bottom:24px;
+}
+
+.research-list{
+  display:flex;
+  flex-direction:column;
+  gap:22px;
+}
+
+.paper{
+  display:grid;
+  grid-template-columns:180px 1fr;
+  gap:20px;
+  align-items:center;
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:rgba(248,250,252,0.58);
+  box-shadow:0 8px 24px rgba(15,23,42,0.04);
+}
+
+.paper-thumb{
+  width:180px;
+  height:120px;
+  border-radius:14px;
+  background:#f8fafc;
+  border:1px solid #edf2f7;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+
+.paper-thumb img{
+  width:100%;
+  height:100%;
+  object-fit:contain;   /* 비율 유지, 잘리지 않음 */
+  display:block;
+  padding:8px;
+}
+
+.paper-content{
+  min-width:0;
+}
+
+.paper-title{
+  font-size:17px;
+  font-weight:600;
+  line-height:1.45;
+  color:var(--text);
+  margin-bottom:8px;
+}
+
+.paper-authors{
+  font-size:14px;
+  line-height:1.7;
+  color:var(--text-soft);
+  margin-bottom:6px;
+}
+
+.paper-venue{
+  font-size:14px;
+  color:#6b7280;
+  margin-bottom:12px;
+}
+
+.paper-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.paper-link{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  padding:8px 12px;
+  border-radius:999px;
+  border:1px solid #e5e7eb;
+  background:#fff;
+  text-decoration:none;
+  color:#374151;
+  font-size:13px;
+  font-weight:600;
+  transition:all .2s ease;
+}
+
+.paper-link:hover{
+  color:var(--blue);
+  border-color:#cfe0ff;
+  background:#f8fbff;
+  transform:translateY(-1px);
+}
+
+.paper-link i{
+  font-size:13px;
+}
+
+.paper-link.disabled{
+  opacity:.45;
+  pointer-events:none;
+}
+
+@media(max-width:700px){
+  .paper{
+    grid-template-columns:1fr;
+    gap:16px;
+  }
+
+  .paper-thumb{
+    width:100%;
+    max-width:320px;
+    height:190px;
+    margin:0 auto;
+  }
+
+  .paper-content{
+    text-align:left;
+  }
+}
+
+/* PROJECTS */
+
+#projects h2{
+  margin-bottom:24px;
+}
+
+.project-list{
+  display:flex;
+  flex-direction:column;
+  gap:22px;
+}
+
+.project-card{
+  display:grid;
+  grid-template-columns:180px 1fr;
+  gap:20px;
+  align-items:center;
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:rgba(248,250,252,0.58);
+  box-shadow:0 8px 24px rgba(15,23,42,0.04);
+}
+
+.project-thumb{
+  width:180px;
+  height:120px;
+  border-radius:14px;
+  background:#f8fafc;
+  border:1px solid #edf2f7;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+
+.project-thumb img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  display:block;
+  padding:8px;
+}
+
+.project-content{
+  min-width:0;
+}
+
+.project-title{
+  font-size:17px;
+  font-weight:600;
+  line-height:1.45;
+  color:var(--text);
+  margin-bottom:8px;
+}
+
+.project-meta{
+  font-size:14px;
+  line-height:1.75;
+  color:var(--text-soft);
+  margin-bottom:10px;
+}
+
+.project-meta strong{
+  color:var(--text);
+}
+
+.project-desc{
+  font-size:14px;
+  line-height:1.75;
+  color:#5b6472;
+  margin-bottom:12px;
+}
+
+.project-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.project-link{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  padding:8px 12px;
+  border-radius:999px;
+  border:1px solid #e5e7eb;
+  background:#fff;
+  text-decoration:none;
+  color:#374151;
+  font-size:13px;
+  font-weight:600;
+  transition:all .2s ease;
+}
+
+.project-link:hover{
+  color:var(--blue);
+  border-color:#cfe0ff;
+  background:#f8fbff;
+  transform:translateY(-1px);
+}
+
+.project-link.disabled{
+  opacity:.45;
+  pointer-events:none;
+}
+
+@media(max-width:700px){
+  .project-card{
+    grid-template-columns:1fr;
+    gap:16px;
+  }
+
+  .project-thumb{
+    width:100%;
+    max-width:320px;
+    height:190px;
+    margin:0 auto;
+  }
+}
+
+/* ANIMATION */
+
+.fade{
+  opacity:0;
+  transform:translateY(24px);
+  transition:opacity .8s ease, transform .8s ease;
+}
+
+.fade.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+/* exp-card 전용 스태거 */
+.exp-card.fade{
+  transform:translateY(26px) scale(.985);
+}
+
+.exp-card.fade.show{
+  opacity:1;
+  transform:translateY(0) scale(1);
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+  .exp-container{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:700px){
+
+  .container{
+    padding:0 20px 32px;
+  }
+
+  .about-container{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:26px;
+  }
+
+  .about-text{
+    max-width:100%;
+  }
+
+  .name-title{
+    font-size:32px;
+  }
+
+  .icon-links{
+    justify-content:center;
+  }
+
+  .paper{
+    flex-direction:column;
+  }
+
+  .project{
+    flex-direction:column;
+  }
+}
+
+@media(max-width:600px){
+  .exp-container{
+    grid-template-columns:1fr;
+  }
+
+  #about{
+    padding-top:108px;
+    padding-bottom:28px;
+  }
+
+  #experience{
+    padding-top:4px;
+    padding-bottom:18px;
+  }
+
+  #news{
+    padding-top:24px;
+  }
+}
+
+/* AWARDS & SERVICE */
+
+#awards h2,
+#patents h2{
+  margin-bottom:24px;
+}
+
+.awards-service-group{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+.subsection-title{
+  font-size:18px;
+  font-weight:700;
+  color:var(--text);
+  margin:4px 0 2px;
+  letter-spacing:-0.02em;
+}
+
+.awards-list,
+.patent-list{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+.award-card{
+  padding:18px 20px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:rgba(248,250,252,0.58);
+  box-shadow:0 8px 24px rgba(15,23,42,0.04);
+}
+
+.award-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:16px;
+  margin-bottom:8px;
+}
+
+.award-title{
+  font-size:17px;
+  font-weight:600;
+  line-height:1.4;
+  color:var(--text);
+}
+
+.award-year{
+  flex-shrink:0;
+  font-size:13px;
+  font-weight:600;
+  color:#2563eb;
+  background:#eff6ff;
+  border:1px solid #dbeafe;
+  padding:5px 10px;
+  border-radius:999px;
+}
+
+.award-org,
+.award-desc,
+.service-text,
+.patent-text{
+  font-size:14px;
+  line-height:1.75;
+  color:var(--text-soft);
+}
+
+.award-org{
+  margin-bottom:4px;
+}
+
+/* academic service */
+.service-card{
+  padding:18px 20px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:#ffffff;
+  box-shadow:0 8px 24px rgba(15,23,42,0.03);
+}
+
+.service-title{
+  font-size:16px;
+  font-weight:600;
+  color:var(--text);
+  margin-bottom:10px;
+}
+
+.service-text{
+  margin-bottom:14px;
+}
+
+.service-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.service-tag{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:8px 12px;
+  border-radius:999px;
+  border:1px solid #e5e7eb;
+  background:#f8fafc;
+  color:#374151;
+  font-size:13px;
+  font-weight:600;
+  line-height:1;
+}
+
+.service-tag i{
+  font-size:12px;
+  color:#2563eb;
+}
+
+/* PATENTS */
+.patent-card{
+  display:flex;
+  gap:14px;
+  align-items:flex-start;
+  padding:18px 20px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:rgba(248,250,252,0.58);
+  box-shadow:0 8px 24px rgba(15,23,42,0.04);
+}
+
+.patent-icon{
+  width:36px;
+  height:36px;
+  border-radius:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#eff6ff;
+  color:#2563eb;
+  flex-shrink:0;
+  margin-top:2px;
+}
+
+.patent-title{
+  font-size:15px;
+  font-weight:600;
+  line-height:1.6;
+  color:var(--text);
+  margin-bottom:4px;
+}
+
+.patent-number{
+  font-size:13px;
+  color:#6b7280;
+  line-height:1.6;
+}
+
+.section-note{
+  font-size:13px;
+  color:#6b7280;
+  margin-top:-10px;
+  margin-bottom:18px;
+}
+
+@media(max-width:700px){
+  .award-top{
+    flex-direction:column;
+    gap:8px;
+  }
+
+  .award-year{
+    align-self:flex-start;
+  }
+
+  .patent-card{
+    gap:12px;
+  }
+}
+
+</style>
+</head>
+
+
+<body>
+
+<nav class="navbar">
+<div class="navbar-inner">
+
+<a href="#" class="logo">Choddeok</a>
+
+<div class="nav-links">
+<a href="#about">About</a>
+<a href="#news">News</a>
+<a href="#research">Research</a>
+<a href="#projects">Projects</a>
+<a href="#awards">Awards</a>
+<a href="#patents">Patents</a>
+</div>
+
+</div>
+</nav>
+
+
+<div class="container">
+
+<!-- ABOUT -->
+
+<section id="about" class="fade">
+
+  <div class="about-container">
+
+    <div class="about-img">
+      <img src="./images/figure.JPG" alt="Deok-Hyeon Cho">
+    </div>
+
+    <div class="about-text">
+
+      <h1 class="name-title">
+        <span id="typing-name"></span>
+        <span id="cursor" class="cursor"></span>
+      </h1>
+
+      <p>
+        I am a Ph.D. candidate in the Department of Artificial Intelligence at Korea University, 
+        working in the <a href="http://ibi.korea.ac.kr/">Pattern Recognition &amp; Machine Learning Lab</a> under the supervision <br>
+        of Prof. <a href="http://ibi.korea.ac.kr/sub2_1.php?code=LSW">Seong-Whan Lee</a>.
+      </p>
+
+      <p class="research-interest">
+        <strong>Research Interests:</strong><br>
+        <em><u>Text-to-Speech</u></em> · <em><u>Conversational Speech Synthesis</u></em> · <em><u>Full Duplex Speech-to-Speech</u></em> <br>
+        <em><u>Emotion Recognition</u></em> · <em><u>Voice Conversion</u></em> · <em><u>Multimodal Affective Modeling</u></em>
+      </p>
+
+      <div class="icon-links">
+        <a href="mailto:dh_cho@korea.ac.kr" onclick="copyEmail()" title="Send Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a href="https://raw.githubusercontent.com/Choddeok/Choddeok/blog/CV/CV_260107.pdf"
+          target="_blank"
+          title="Download CV">
+          <i class="fa-solid fa-file"></i>
+        </a>
+
+        <a href="https://scholar.google.co.kr/citations?user=cynqcHwAAAAJ&hl=en"
+          target="_blank"
+          title="Google Scholar">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/deokhyeon-cho-7b5222204/"
+          target="_blank"
+          title="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/Choddeok"
+          target="_blank"
+          title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- EXPERIENCE / EDUCATION -->
+<section id="experience">
+
+  <div class="exp-container">
+
+    <div class="exp-card fade" data-delay="0">
+      <img src="./images/KU.jpg" alt="Korea University">
+      <h3>Korea University</h3>
+      <p>Ph.D. Candidate</p>
+      <span>Sep. 2022 - Present</span>
+    </div>
+
+    <div class="exp-card fade" data-delay="240">
+      <img src="./images/RS.jpg" alt="RexSoft">
+      <h3>RexSoft</h3>
+      <p>Developer Intern</p>
+      <span>Jan. 2022 - Feb.2022</span>
+    </div>
+
+    <div class="exp-card fade" data-delay="480">
+      <img src="./images/VS.jpg" alt="Visang Education">
+      <h3>Visang Education</h3>
+      <p>Data Scientist Intern</p>
+      <span>Jun. 2021 – Jul.2021</span>
+    </div>
+
+    <div class="exp-card fade" data-delay="720">
+      <img src="./images/HU.jpg" alt="Hanyang University ERICA">
+      <h3>Hanyang University ERICA</h3>
+      <p>B.S. in Applied Mathematics</p>
+      <span>Mar. 2016 – Jul. 2022</span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- NEWS -->
+
+<section id="news" class="fade">
+
+<h2>News</h2>
+
+<div class="news-box">
+
+<ul>
+  <li>Jan. 2026 — One paper accepted to <strong>ICLR 2026</strong> (<a href="https://openreview.net/forum?id=U4GXPqm3Va">ComVo</a>)</li>
+  <li>Nov. 2025 — Received the <strong>Excellence Award</strong> at the AI Frontier Challenge</li>
+  <li>Oct. 2025 — Started collaboration with <strong>Murf AI</strong> on full duplex speech-to-speech conversational AI</li>
+  <li>Oct. 2025 — Started collaboration with <strong>Thomas Crown</strong> on controllable emotion transfer TTS</li>
+  <li>May 2025 — Three papers accepted to <strong>INTERSPEECH 2025</strong> (<a href="https://www.isca-archive.org/interspeech_2025/cho25b_interspeech.html">DiEmo-TTS</a>, <a href="https://www.isca-archive.org/interspeech_2025/cho25_interspeech.html">EmoSphere-SER</a>, <a href="https://www.isca-archive.org/interspeech_2025/kim25t_interspeech.html">Spotlight-TTS</a>)</li>
+  <li>Apr. 2025 — One paper published in <strong>IEEE Transactions on Affective Computing</strong> (<a href="https://ieeexplore.ieee.org/document/10965917">EmoSphere++</a>)</li>
+  <li>Jan. 2025 — One paper published in <strong>IEEE Transactions on Affective Computing</strong> (<a href="https://ieeexplore.ieee.org/document/10844546?reason=concurrency">DurFlex-EVC</a>)</li>
+  <li>May. 2024 — Started collaboration with <strong>Samsung Research</strong> on natural filler speech synthesis</li>
+  <li>Sep. 2024 — One paper accepted to <strong>IEEE SMC 2024</strong> (<a href="https://ieeexplore.ieee.org/document/10831218">PromotiCon</a>)</li>
+  <li>Jun. 2024 — One paper accepted to <strong>INTERSPEECH 2024</strong> (<a href="https://www.isca-archive.org/interspeech_2024/cho24_interspeech.html">EmoSphere-TTS</a>)</li>
+  <li>Jul. 2022 — Joined the <strong>Pattern Recognition &amp; Machine Learning Lab</strong>, Korea University</li>
+  <li>Jan. 2022 — Worked as a Developer Intern at <strong>RexSoft</strong></li>
+  <li>Nov. 2021 — Received the <strong>Excellence Award</strong> in the Dacon AI Competition</li>
+  <li>Jun. 2021 — Worked as a Data Scientist Intern at <strong>Visang Education</strong></li>
+  <li>Mar. 2016 — Started the B.S. in Applied Mathematics at <strong>Hanyang University ERICA</strong></li>
+</ul>
+
+</div>
+
+</section>
+
+<!-- RESEARCH -->
+<section id="research" class="fade">
+
+  <h2>Research</h2>
+
+  <div class="research-list">
+
+    <!-- Affectron -->
+    <div class="paper fade">
+      <div class="paper-thumb">
+        <img src="./images/Affectron.jpg" alt="Affectron">
+      </div>
+
+      <div class="paper-content">
+        <div class="paper-title">
+          Affectron: Emotional Speech Synthesis with Affective and Contextually Aligned Nonverbal Vocalizations
+        </div>
+
+        <div class="paper-authors">
+          <strong>D.-H. Cho</strong>, H.-S. Oh, S.-B. Kim, and S.-W. Lee
+        </div>
+
+        <div class="paper-venue">
+          <em>Under Review</em>, 2026
+        </div>
+
+        <div class="paper-links">
+          <a href="#" class="paper-link disabled">
+            <i class="fa-regular fa-file-lines"></i> Paper
+          </a>
+          <a href="https://github.com/Choddeok/Affectron" class="paper-link" target="_blank">
+            <i class="fa-brands fa-github"></i> Code
+          </a>
+          <a href="https://choddeok.github.io/Affectron/" class="paper-link" target="_blank">
+            <i class="fa-solid fa-volume-high"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ComVo -->
+    <div class="paper fade">
+      <div class="paper-thumb">
+        <img src="./images/ComVo.jpg" alt="ComVo">
+      </div>
+
+      <div class="paper-content">
+        <div class="paper-title">
+          Toward Complex-Valued Neural Networks for Waveform Generation
+        </div>
+
+        <div class="paper-authors">
+          H.-S. Oh, <strong>D.-H. Cho</strong>, S.-B. Kim, and S.-W. Lee
+        </div>
+
+        <div class="paper-venue">
+          <em>Conference of the International Conference on Learning Representations (ICLR)</em>, 2026
+        </div>
+
+        <div class="paper-links">
+          <a href="https://openreview.net/forum?id=U4GXPqm3Va" class="paper-link" target="_blank">
+            <i class="fa-regular fa-file-lines"></i> Paper
+          </a>
+          <a href="https://github.com/hs-oh-prml/ComVo" class="paper-link" target="_blank">
+            <i class="fa-brands fa-github"></i> Code
+          </a>
+          <a href="https://hs-oh-prml.github.io/ComVo/" class="paper-link" target="_blank">
+            <i class="fa-solid fa-volume-high"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- DiEmo-TTS -->
+    <div class="paper fade">
+      <div class="paper-thumb">
+        <img src="./images/DiEmo-TTS.jpg" alt="DiEmo-TTS">
+      </div>
+
+      <div class="paper-content">
+        <div class="paper-title">
+          DiEmo-TTS: Disentangled Emotion Representations via Self-Supervised Distillation for Cross-Speaker Emotion Transfer in Text-to-Speech
+        </div>
+
+        <div class="paper-authors">
+          <strong>D.-H. Cho</strong>, H.-S. Oh, S.-B. Kim, and S.-W. Lee
+        </div>
+
+        <div class="paper-venue">
+          <em>Conference of the International Speech Communication Association (INTERSPEECH)</em>, 2025
+        </div>
+
+        <div class="paper-links">
+          <a href="https://www.isca-archive.org/interspeech_2025/cho25b_interspeech.html" class="paper-link" target="_blank">
+            <i class="fa-regular fa-file-lines"></i> Paper
+          </a>
+          <a href="https://github.com/Choddeok/DiEmo-TTS" class="paper-link" target="_blank">
+            <i class="fa-brands fa-github"></i> Code
+          </a>
+          <a href="https://choddeok.github.io/DiEmo-TTS-Demo/" class="paper-link" target="_blank">
+            <i class="fa-solid fa-volume-high"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Spotlight-TTS -->
+    <div class="paper fade">
+      <div class="paper-thumb">
+        <img src="./images/Spotlight-TTS.jpg" alt="Spotlight-TTS">
+      </div>
+
+      <div class="paper-content">
+        <div class="paper-title">
+          Spotlight-TTS: Spotlighting the Style via Voiced-Aware Style Extraction and Style Direction Adjustment for Expressive Text-to-Speech
+        </div>
+
+        <div class="paper-authors">
+          N.-G. Kim, <strong>D.-H. Cho</strong>, S.-B. Kim, and S.-W. Lee
+        </div>
+
+        <div class="paper-venue">
+          <em>Conference of the International Speech Communication Association (INTERSPEECH)</em>, 2025
+        </div>
+
+        <div class="paper-links">
+          <a href="https://www.isca-archive.org/interspeech_2025/kim25t_interspeech.html" class="paper-link" target="_blank">
+            <i class="fa-regular fa-file-lines"></i> Paper
+          </a>
+          <a href="https://spotlight-tts.github.io/" class="paper-link" target="_blank">
+            <i class="fa-solid fa-volume-high"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- EmoSphere-SER -->
+    <div class="paper fade">
+      <div class="paper-thumb">
+        <img src="./images/EmoSphere-SER.jpg" alt="EmoSphere-SER">
+      </div>
+
+      <div class="paper-content">
+        <div class="paper-title">
+          EmoSphere-SER: Enhancing Speech Emotion Recognition through Spherical Representation with Auxiliary Classification
+        </div>
+
+        <div class="paper-authors">
+          <strong>D.-H. Cho</strong>, H.-S. Oh, S.-B. Kim, and S.-W. Lee
+        </div>
+
+        <div class="paper-venue">
+          <em>Conference of the International Speech Communication Association (INTERSPEECH)</em>, 2025
+        </div>
+
+        <div class="paper-links">
+          <a href="https://www.isca-archive.org/interspeech_2025/cho25_interspeech.html" class="paper-link" target="_blank">
+            <i class="fa-regular fa-file-lines"></i> Paper
+          </a>
+          <a href="https://github.com/Choddeok/EmoSphere-SER" class="paper-link" target="_blank">
+            <i class="fa-brands fa-github"></i> Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- EmoSphere++ -->
+    <div class="paper fade">
+      <div class="paper-thumb">
+        <img src="./images/EmoSphere2.jpg" alt="EmoSphere++">
+      </div>
+
+      <div class="paper-content">
+        <div class="paper-title">
+          EmoSphere++: Emotion-Controllable Zero-Shot Text-to-Speech via Emotion-Adaptive Spherical Vector
+        </div>
+
+        <div class="paper-authors">
+          <strong>D.-H. Cho</strong>, H.-S. Oh, S.-B. Kim, and S.-W. Lee
+        </div>
+
+        <div class="paper-venue">
+          <em>IEEE Transactions on Affective Computing (TAFFC)</em>, 2025
+        </div>
+
+        <div class="paper-links">
+          <a href="https://ieeexplore.ieee.org/document/10965917" class="paper-link" target="_blank">
+            <i class="fa-regular fa-file-lines"></i> Paper
+          </a>
+          <a href="https://github.com/Choddeok/EmoSpherepp" class="paper-link" target="_blank">
+            <i class="fa-brands fa-github"></i> Code
+          </a>
+          <a href="https://choddeok.github.io/EmoSphere-Demo/" class="paper-link" target="_blank">
+            <i class="fa-solid fa-volume-high"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- DurFlex-EVC -->
+    <div class="paper fade">
+      <div class="paper-thumb">
+        <img src="./images/DurFlex-EVC.jpg" alt="DurFlex-EVC">
+      </div>
+
+      <div class="paper-content">
+        <div class="paper-title">
+          DurFlex-EVC: Duration-Flexible Emotional Voice Conversion Leveraging Discrete Representations Without Text Alignment
+        </div>
+
+        <div class="paper-authors">
+          H.-S. Oh, S.-H. Lee, <strong>D.-H. Cho</strong>, and S.-W. Lee
+        </div>
+
+        <div class="paper-venue">
+          <em>IEEE Transactions on Affective Computing (TAFFC)</em>, 2025
+        </div>
+
+        <div class="paper-links">
+          <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10844546" class="paper-link" target="_blank">
+            <i class="fa-regular fa-file-lines"></i> Paper
+          </a>
+          <a href="https://github.com/hs-oh-prml/DurFlexEVC?tab=readme-ov-file" class="paper-link" target="_blank">
+            <i class="fa-brands fa-github"></i> Code
+          </a>
+          <a href="https://prml-lab-speech-team.github.io/durflex/" class="paper-link" target="_blank">
+            <i class="fa-solid fa-volume-high"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PromotiCon -->
+    <div class="paper fade">
+      <div class="paper-thumb">
+        <img src="./images/PromotiCon.jpg" alt="PromotiCon">
+      </div>
+
+      <div class="paper-content">
+        <div class="paper-title">
+          PromotiCon: Prompt-Based Emotion Controllable Text-to-Speech via Prompt Generation and Matching
+        </div>
+
+        <div class="paper-authors">
+          J.-E. Lee, S.-B. Kim, <strong>D.-H. Cho</strong>, and S.-W. Lee
+        </div>
+
+        <div class="paper-venue">
+          <em>IEEE International Conference on Systems, Man, and Cybernetics (SMC)</em>, 2024
+        </div>
+
+        <div class="paper-links">
+          <a href="https://ieeexplore.ieee.org/document/10831218" class="paper-link" target="_blank">
+            <i class="fa-regular fa-file-lines"></i> Paper
+          </a>
+          <a href="https://promoticon.github.io/." class="paper-link" target="_blank">
+            <i class="fa-solid fa-volume-high"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- EmoSphere-TTS -->
+    <div class="paper fade">
+      <div class="paper-thumb">
+        <img src="./images/EmoSphere-TTS.jpg" alt="EmoSphere-TTS">
+      </div>
+
+      <div class="paper-content">
+        <div class="paper-title">
+          EmoSphere-TTS: Emotional Style and Intensity Modeling via Spherical Emotion Vector for Controllable Emotional Text-to-Speech
+        </div>
+
+        <div class="paper-authors">
+          <strong>D.-H. Cho</strong>, H.-S. Oh, S.-B. Kim, S.-H. Lee, and S.-W. Lee
+        </div>
+
+        <div class="paper-venue">
+          <em>Conference of the International Speech Communication Association (INTERSPEECH)</em>, 2024
+        </div>
+
+        <div class="paper-links">
+          <a href="https://www.isca-archive.org/interspeech_2024/cho24_interspeech.html" class="paper-link" target="_blank">
+            <i class="fa-regular fa-file-lines"></i> Paper
+          </a>
+          <a href="https://github.com/Choddeok/EmoSphere-TTS" class="paper-link" target="_blank">
+            <i class="fa-brands fa-github"></i> Code
+          </a>
+          <a href="https://emosphere-tts.github.io/" class="paper-link" target="_blank">
+            <i class="fa-solid fa-volume-high"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="fade">
+
+  <h2>Projects</h2>
+
+  <div class="project-list">
+      <!-- Murf AI -->
+      <div class="project-card fade">
+        <div class="project-thumb">
+          <img src="./images/murf.png" alt="Murf AI Project">
+        </div>
+    
+        <div class="project-content">
+          <div class="project-title">
+            Full Duplex Speech-to-Speech Conversational AI
+          </div>
+    
+          <div class="project-meta">
+            <strong>Institution:</strong> Murf AI, USA<br>
+            <strong>Duration:</strong> Oct. 2025 – Present
+          </div>
+    
+          <div class="project-desc">
+            Collaborative research on full duplex speech-to-speech conversational AI, targeting more natural and interactive spoken dialogue systems.
+          </div>
+    
+          <div class="project-links">
+            <a href="#" class="project-link disabled">
+              <i class="fa-solid fa-link"></i> Details
+            </a>
+          </div>
+        </div>
+      </div>
+
+    <!-- Voltron -->
+    <div class="project-card fade">
+      <div class="project-thumb">
+        <img src="./images/Voltron.png" alt="Voltron Project">
+      </div>
+
+      <div class="project-content">
+        <div class="project-title">
+          Voltron: Cross-speaker Controllable Emotion Transfer TTS
+        </div>
+
+        <div class="project-meta">
+          <strong>Institution:</strong> Thomas Crown, USA<br>
+          <strong>Duration:</strong> Sep. 2025 - Oct. 2025
+        </div>
+
+        <div class="project-desc">
+          Industry collaboration on controllable cross-speaker emotion transfer for text-to-speech systems, focusing on expressive and transferable emotional style modeling.
+        </div>
+
+        <div class="project-links">
+          <a href="#" class="project-link disabled">
+            <i class="fa-solid fa-link"></i> Details
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Samsung Research -->
+    <div class="project-card fade">
+      <div class="project-thumb">
+        <img src="./images/Samsung.jpg" alt="Samsung Research Project">
+      </div>
+
+      <div class="project-content">
+        <div class="project-title">
+          Development of Interjection Utterances for Natural Speech Synthesis
+        </div>
+
+        <div class="project-meta">
+          <strong>Institution:</strong> Samsung Research, Korea<br>
+          <strong>Duration:</strong> May 2024 – Dec. 2024
+        </div>
+
+        <div class="project-desc">
+          Research collaboration on improving the naturalness of speech synthesis through the development of interjection and filler-style utterances.
+        </div>
+
+        <div class="project-links">
+          <a href="#" class="project-link disabled">
+            <i class="fa-solid fa-link"></i> Details
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="awards" class="fade">
+  <h2>Awards &amp; Service</h2>
+
+  <div class="awards-service-group">
+
+    <h3 class="subsection-title">Awards</h3>
+
+    <div class="awards-list">
+      <div class="award-card fade">
+        <div class="award-top">
+          <div class="award-title">Excellence Award</div>
+          <div class="award-year">2025</div>
+        </div>
+        <div class="award-org">
+          Extreme-Noise Speech Recognition &amp; Restoration AI Model Development Competition
+        </div>
+        <div class="award-desc">
+          <a href="https://aiassociation.kr/board/board.asp?b_code=243&Action=content&GotoPage=1&B_CATE=BBS1" target="_blank">
+            AI Frontier Challenge
+          </a> — Korea Artificial Intelligence Association (KAIA)
+        </div>
+      </div>
+
+      <div class="award-card fade">
+        <div class="award-top">
+          <div class="award-title">Excellence Award</div>
+          <div class="award-year">2021</div>
+        </div>
+        <div class="award-org">
+          Credit Card User Delinquency Prediction AI Competition
+        </div>
+        <div class="award-desc">
+          Hanyang University &amp; Dacon
+        </div>
+      </div>
+    </div>
+
+    <h3 class="subsection-title">Academic Service</h3>
+
+    <div class="service-card fade">
+      <div class="service-title">Reviewer</div>
+      <div class="service-text">
+        Served as a reviewer for journals and conferences in affective computing, speech, and machine learning.
+      </div>
+
+      <div class="service-tags">
+        <span class="service-tag">
+          <i class="fa-solid fa-book"></i> IEEE Transactions on Affective Computing (TAFFC)
+        </span> <br>
+        <span class="service-tag">
+          <i class="fa-solid fa-microphone-lines"></i> IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+        </span> <br>
+        <span class="service-tag">
+          <i class="fa-solid fa-book"></i> IEEE Signal Processing Letters (SPL)
+        </span> <br>
+        <span class="service-tag">
+          <i class="fa-solid fa-users-gear"></i> IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+        </span> <br>
+        <span class="service-tag">
+          <i class="fa-solid fa-microphone-lines"></i> International Conference of the International Speech Communication Association (INTERSPEECH)
+        </span> <br>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="patents" class="fade">
+  <h2>Patents</h2>
+  <div class="section-note">KR patents</div>
+
+  <div class="patent-list">
+
+    <div class="patent-card fade">
+      <div class="patent-icon">
+        <i class="fa-regular fa-file-lines"></i>
+      </div>
+      <div>
+        <div class="patent-title">
+          Method for Cross-Speaker Emotion Transfer in Text-to-Speech Using Disentangled Emotion Representations via Self-Supervised Distillation
+        </div>
+        <div class="patent-number">10-2025-0130127</div>
+      </div>
+    </div>
+
+    <div class="patent-card fade">
+      <div class="patent-icon">
+        <i class="fa-regular fa-file-lines"></i>
+      </div>
+      <div>
+        <div class="patent-title">
+          Method and System for Expressive Text-to-Speech via Voiced-Aware Style Extraction and Style Direction Adjustment
+        </div>
+        <div class="patent-number">10-2025-0116457</div>
+      </div>
+    </div>
+
+    <div class="patent-card fade">
+      <div class="patent-icon">
+        <i class="fa-regular fa-file-lines"></i>
+      </div>
+      <div>
+        <div class="patent-title">
+          Apparatus and Method for Speech Synthesis
+        </div>
+        <div class="patent-number">10-2025-0088028</div>
+      </div>
+    </div>
+
+    <div class="patent-card fade">
+      <div class="patent-icon">
+        <i class="fa-regular fa-file-lines"></i>
+      </div>
+      <div>
+        <div class="patent-title">
+          Method, Device, and Program for Synthesizing Voices Expressing Emotions Based on Prompts
+        </div>
+        <div class="patent-number">10-2024-0099370</div>
+      </div>
+    </div>
+
+    <div class="patent-card fade">
+      <div class="patent-icon">
+        <i class="fa-regular fa-file-lines"></i>
+      </div>
+      <div>
+        <div class="patent-title">
+          Emotional Expression Voice Generation Apparatus and Method Capable of Controlling Emotional Style and Intensity Using Continuous Emotional Dimensions
+        </div>
+        <div class="patent-number">10-2024-0029066</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</div>
+
+
+<script>
+
+/* NAME TYPING */
+
+const text = "Deok-Hyeon Cho (조덕현)";
+const target = document.getElementById("typing-name");
+const cursor = document.getElementById("cursor");
+
+let i = 0;
+
+function typing(){
+  if(i < text.length){
+    target.textContent += text.charAt(i);
+    i++;
+    setTimeout(typing, 80);
+  }else{
+    cursor.style.display = "none";
+  }
+}
+
+window.addEventListener("load", typing);
+
+
+/* SCROLL ANIMATION */
+
+const faders = document.querySelectorAll(".fade");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if(entry.isIntersecting){
+      const delay = entry.target.dataset.delay || 0;
+      setTimeout(() => {
+        entry.target.classList.add("show");
+      }, Number(delay));
+      observer.unobserve(entry.target);
+    }
+  });
+}, {
+  threshold: 0.14
+});
+
+faders.forEach((el) => observer.observe(el));
+
+
+/* GITHUB STAR FETCH */
+
+document.querySelectorAll(".github-star").forEach(async el => {
+  const repo = el.dataset.repo;
+
+  try{
+    const res = await fetch(`https://api.github.com/repos/${repo}`);
+    const data = await res.json();
+    el.querySelector("span").textContent = data.stargazers_count;
+  }catch{
+    el.querySelector("span").textContent = "★";
+  }
+});
+
+function copyEmail(){
+  navigator.clipboard.writeText("dh_cho@korea.ac.kr");
+  alert("Email address copied!");
+}
+
+</script>
+
+</body>
+</html>
