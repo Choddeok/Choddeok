@@ -16,6 +16,9 @@
       alt="LinkedIn Badge"
     />
   </a>
+  <a href="https://choddeok.github.io/Choddeok/">
+    <img src="https://img.shields.io/badge/GitHub%20Pages-Blog-181717?style=flat&logo=github&logoColor=white" alt="GitHub Pages Blog Badge"/>
+  </a>
 </p>
 
 <p align="center"><em>Ph.D. Candidate, Department of Artificial Intelligence, Korea University</em></p>
