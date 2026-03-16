@@ -22,7 +22,7 @@
 
 <p align="center">
   <strong>Research in Affective Computing:</strong><br/>
-  Emotional Speech Synthesis • Emotion Recognition • Emotional Voice Conversion • Multimodal Affective Modeling
+  Emotional Speech Synthesis • Conversational Speech Synthesis • Full Duplex Speech-to-Speech • Emotion Recognition <br/>• Emotional Voice Conversion • Multimodal Affective Modeling
 </p>
 
 <p align="center">
@@ -31,16 +31,6 @@
     <strong>Download CV</strong>
   </a>
 </p>
-
-## 💼 Employment History
-
-- **[2022] [RexSoft](https://rexsoft.org/) (Intern) | Development Department**  
-   - Debugged and enhanced the REX program
-
-
-- **[2021] [Visang Education](https://www.visang.com/pageLoad?page_id=/en/main) (Intern) | E-Learning Content Planning Department (2021)**  
-   - Managed data entry, validation, analysis, and report creation
-
 
 ## 🎓 Education
 
@@ -52,9 +42,36 @@
   - B.S. degree in Applied Mathematics.
   - GPA: 4.40 / 4.50
 
+## 💻 Research Projects
+#### 1. Development of interjection utterances for natural speech synthesis
+   - Institution: https://research.samsung.com/, Korea
+   - Duration: May. 2024 ~ Dec. 2024
+
+#### 2. Cross-speaker controllable emotion transfer TTS (Voltron)
+   - Institution: Thomas Crown, USA
+   - Duration: Oct. 2025
+
+#### 3. Full Duplex Speech-to-Speech Conversational AI
+   - Institution: Murf AI, USA
+   - Duration: Oct. 2025 ~ Oct. 2026
+
+
+## 💼 Employment History
+
+- **[2022] [RexSoft](https://rexsoft.org/) (Intern) | Development Department**  
+   - Debugged and enhanced the REX program
+
+
+- **[2021] [Visang Education](https://www.visang.com/pageLoad?page_id=/en/main) (Intern) | E-Learning Content Planning Department (2021)**  
+   - Managed data entry, validation, analysis, and report creation
+
+
 ## 📑 Research Publications
 
 **[2026]**
+- **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “Affectron: Emotional Speech Synthesis with Affective and Contextually Aligned Nonverbal Vocalizations,” *(Under Review)*, 2026.
+   - [[📄 Paper]]() [[💻 Code]](https://github.com/Choddeok/Affectron) [[🎤 Demo]](https://choddeok.github.io/Affectron/)
+   - 
 - H.-S. Oh, **D.-H. Cho**, S.-B. Kim, and S.-W. Lee, “Toward Complex-Valued Neural Networks for Waveform Generation,” *in Proc. Conference of the International Conference on Learning Representations (ICLR)*, 2026.
    - [[📄 Paper]](https://openreview.net/forum?id=U4GXPqm3Va) [[💻 Code]](https://github.com/hs-oh-prml/ComVo) [[🎤 Demo]](https://hs-oh-prml.github.io/ComVo/)
 
@@ -81,15 +98,6 @@
 - **D.-H. Cho**, H.-S. Oh, S.-B. Kim, S.-H. Lee, and S.-W. Lee, “EmoSphere-TTS: Emotional Style and Intensity Modeling via Spherical Emotion Vector for Controllable Emotional Text-to-Speech,” *in Proc. Conference of the International Speech Communication Association (INTERSPEECH)*, 2024.
    - [[📄 Paper]](https://www.isca-archive.org/interspeech_2024/cho24_interspeech.html) [[💻 Code]](https://github.com/Choddeok/EmoSphere-TTS) [[🎤 Demo]](https://emosphere-tts.github.io/)
 
-
-## 💻 Research Projects
-#### 1. Development of interjection utterances for natural speech synthesis
-   - Institution: Samsung Research, Korea
-   - Duration: May. 2024 ~ Dec. 2024
-
-#### 2. Cross-speaker controllable emotion transfer TTS (Voltron)
-   - Institution: Thomas Crown, USA
-   - Duration: Oct. 2025
 
 ## 🏆 Awards & Achievements
 
