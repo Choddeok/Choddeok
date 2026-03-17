@@ -37,22 +37,22 @@
 
 ## 🎓 Education
 
-- **[2022 – ] Korea University, Seoul, South Korea.**
+- **[Sep. 2022 - Present] Korea University, Seoul, South Korea.**
   - Integrated M.S.&Ph.D. in Artificial Intelligence in [Pattern Recognition & Machine Learning Lab](http://ibi.korea.ac.kr/sub2_1.php?code=LSW), under the supervision of Seong-Whan Lee.
   - GPA: 4.19 / 4.50
   
-- **[2016 – 2022] Hanyang University, Ansan, South Korea.**
+- **[Mar. 2016 – Jul. 2022] Hanyang University, Ansan, South Korea.**
   - B.S. degree in Applied Mathematics.
   - GPA: 4.40 / 4.50
 
 ## 💻 Research Projects
 #### 1. Development of interjection utterances for natural speech synthesis
-   - Institution: https://research.samsung.com/, Korea
+   - Institution: Samsung Research, Korea
    - Duration: May. 2024 ~ Dec. 2024
 
 #### 2. Cross-speaker controllable emotion transfer TTS (Voltron)
    - Institution: Thomas Crown, USA
-   - Duration: Oct. 2025
+   - Duration: Sep. 2025 - Oct. 2025
 
 #### 3. Full Duplex Speech-to-Speech Conversational AI
    - Institution: Murf AI, USA
@@ -61,11 +61,11 @@
 
 ## 💼 Employment History
 
-- **[2022] [RexSoft](https://rexsoft.org/) (Intern) | Development Department**  
+- **[Jan. 2022 - Feb.2022] [RexSoft](https://rexsoft.org/) (Intern) | Development Department**  
    - Debugged and enhanced the REX program
 
 
-- **[2021] [Visang Education](https://www.visang.com/pageLoad?page_id=/en/main) (Intern) | E-Learning Content Planning Department (2021)**  
+- **[Jun. 2021 – Jul.2021] [Visang Education](https://www.visang.com/pageLoad?page_id=/en/main) (Intern) | E-Learning Content Planning Department (2021)**  
    - Managed data entry, validation, analysis, and report creation
 
 
@@ -74,7 +74,7 @@
 **[2026]**
 - **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “Affectron: Emotional Speech Synthesis with Affective and Contextually Aligned Nonverbal Vocalizations,” *(Under Review)*, 2026.
    - [[📄 Paper]]() [[💻 Code]](https://github.com/Choddeok/Affectron) [[🎤 Demo]](https://choddeok.github.io/Affectron/)
-   - 
+  
 - H.-S. Oh, **D.-H. Cho**, S.-B. Kim, and S.-W. Lee, “Toward Complex-Valued Neural Networks for Waveform Generation,” *in Proc. Conference of the International Conference on Learning Representations (ICLR)*, 2026.
    - [[📄 Paper]](https://openreview.net/forum?id=U4GXPqm3Va) [[💻 Code]](https://github.com/hs-oh-prml/ComVo) [[🎤 Demo]](https://hs-oh-prml.github.io/ComVo/)
 
@@ -103,15 +103,20 @@
 
 
 ## 🏆 Awards & Achievements
+- **Awards**
+  - [2025] **Excellence Award**  
+    Extreme-Noise Speech Recognition & Restoration AI Model Development Competition [(AI Frontier Challenge)](https://aiassociation.kr/board/board.asp?b_code=243&Action=content&GotoPage=1&B_CATE=BBS1) — Korea Artificial Intelligence Association (KAIA)
+  
+  - [2021] **Excellence Award**  
+    Credit Card User Delinquency Prediction AI Competition — Hanyang University & Dacon
 
-- [2021] **Excellence Award**  
-  Credit Card User Delinquency Prediction AI Competition — Hanyang University & Dacon
 
-- [2025] **Excellence Award**  
-  Extreme-Noise Speech Recognition & Restoration AI Model Development Competition [(AI Frontier Challenge)](https://aiassociation.kr/board/board.asp?b_code=243&Action=content&GotoPage=1&B_CATE=BBS1) — Korea Artificial Intelligence Association (KAIA)
-
-
-- Reviewer: Transactions on Affective Computing (TAFFC), IEEE International Conference on Acoustics Speech and Signal Processing (ICASSP), IEEE Signal Processing Letters (SPL), and IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+- **Reviewer**
+  - Transactions on Affective Computing (TAFFC)
+  - IEEE International Conference on Acoustics Speech and Signal Processing (ICASSP)
+  - IEEE Signal Processing Letters (SPL)
+  - IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+  - International Conference of the International Speech Communication Association (INTERSPEECH)
 
 ## 📑 Patents (KR)
 - Method for Cross-Speaker Emotion Transfer in Text-to-Speech Using Disentangled Emotion Representations via Self-Supervised Distillation, 10-2025-0130127.
