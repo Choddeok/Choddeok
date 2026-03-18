@@ -73,7 +73,7 @@
 
 **[2026]**
 - **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “Affectron: Emotional Speech Synthesis with Affective and Contextually Aligned Nonverbal Vocalizations,” *(Under Review)*, 2026.
-   - [[📄 Paper]]() [[💻 Code]](https://github.com/Choddeok/Affectron) [[🎤 Demo]](https://choddeok.github.io/Affectron/)
+   - [[📄 Paper]](https://arxiv.org/abs/2603.14432) [[💻 Code]](https://github.com/Choddeok/Affectron) [[🎤 Demo]](https://choddeok.github.io/Affectron/)
   
 - H.-S. Oh, **D.-H. Cho**, S.-B. Kim, and S.-W. Lee, “Toward Complex-Valued Neural Networks for Waveform Generation,” *in Proc. Conference of the International Conference on Learning Representations (ICLR)*, 2026.
    - [[📄 Paper]](https://openreview.net/forum?id=U4GXPqm3Va) [[💻 Code]](https://github.com/hs-oh-prml/ComVo) [[🎤 Demo]](https://hs-oh-prml.github.io/ComVo/)
