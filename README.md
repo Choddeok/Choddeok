@@ -1,4 +1,4 @@
-
+<img width="739" height="514" alt="image" src="https://github.com/user-attachments/assets/29d2e658-faac-4918-8e1e-b8ac31789221" />
 ![welcome little one!](https://github.com/user-attachments/assets/290ce339-84ca-4028-b82c-0929853f590a)
 
 <h1 align="center">Deok-Hyeon Cho (조덕현) </h1>
@@ -72,7 +72,7 @@
 ## 📑 Research Publications
 
 **[2026]**
-- **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “Affectron: Emotional Speech Synthesis with Affective and Contextually Aligned Nonverbal Vocalizations,” *(Under Review)*, 2026.
+- **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “Affectron: Emotional Speech Synthesis with Affective and Contextually Aligned Nonverbal Vocalizations,” *in Proc. The 64th Annual Meeting of the Association for Computational Linguistics (ACL Findings)*, 2026.
    - [[📄 Paper]](https://arxiv.org/abs/2603.14432) [[💻 Code]](https://github.com/Choddeok/Affectron) [[🎤 Demo]](https://choddeok.github.io/Affectron/)
   
 - H.-S. Oh, **D.-H. Cho**, S.-B. Kim, and S.-W. Lee, “Toward Complex-Valued Neural Networks for Waveform Generation,” *in Proc. Conference of the International Conference on Learning Representations (ICLR)*, 2026.
