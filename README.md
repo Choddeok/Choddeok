@@ -1,4 +1,3 @@
-<img width="739" height="514" alt="image" src="https://github.com/user-attachments/assets/29d2e658-faac-4918-8e1e-b8ac31789221" />
 ![welcome little one!](https://github.com/user-attachments/assets/290ce339-84ca-4028-b82c-0929853f590a)
 
 <h1 align="center">Deok-Hyeon Cho (조덕현) </h1>
