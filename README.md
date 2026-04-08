@@ -115,7 +115,6 @@
   - IEEE International Conference on Acoustics Speech and Signal Processing (ICASSP)
   - IEEE Signal Processing Letters (SPL)
   - IEEE International Conference on Systems, Man, and Cybernetics (SMC)
-  - International Conference of the International Speech Communication Association (INTERSPEECH)
 
 ## 📑 Patents (KR)
 - Method for Cross-Speaker Emotion Transfer in Text-to-Speech Using Disentangled Emotion Representations via Self-Supervised Distillation, 10-2025-0130127.
