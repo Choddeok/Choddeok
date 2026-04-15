@@ -119,6 +119,8 @@
   - IEEE International Conference on Systems, Man, and Cybernetics (SMC)
 
 ## 📑 Patents (KR)
+- Method and System for Emotional Speech Synthesis with Affectively and Contextually Aligned Nonverbal Vocalizations, 10-2026-0067599.
+
 - Method for Cross-Speaker Emotion Transfer in Text-to-Speech Using Disentangled Emotion Representations via Self-Supervised Distillation, 10-2025-0130127.
 
 - Method and System for Expressive Text-to-Speech via Voiced-Aware Style Extraction and Style Direction Adjustment, 10-2025-0116457.
