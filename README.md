@@ -112,6 +112,7 @@
 
 - **Reviewer**
   - Transactions on Affective Computing (TAFFC)
+  - Conference on Neural Information Processing System (NeurIPS)
   - IEEE International Conference on Acoustics Speech and Signal Processing (ICASSP)
   - International Speech Communication Association (INTERSPEECH)
   - IEEE Spoken Language Technology Workshop (SLT)
