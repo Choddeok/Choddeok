@@ -118,6 +118,10 @@
   - IEEE Spoken Language Technology Workshop (SLT)
   - IEEE Signal Processing Letters (SPL)
   - IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+ 
+- **Invited Talks**
+  - 2026.05.12: Speech Generative AI, [Hanyang University Mathematical Data science](https://mds.hanyang.ac.kr/).
+
 
 ## 📑 Patents (KR)
 - Method and System for Emotional Speech Synthesis with Affectively and Contextually Aligned Nonverbal Vocalizations, 10-2026-0067599.
