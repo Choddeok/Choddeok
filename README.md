@@ -72,7 +72,7 @@
 
 **[2026]**
 - H.-S. Oh, **D.-H. Cho**, S.-B. Kim, and S.-W. Lee, “L-Proto: Language-Aware Episodic Prototypical Training for Multilingual Speaker Verification,” *in Proc. Conference of the International Speech Communication Association (INTERSPEECH)*, 2026.
-   - [[📄 Paper]]() [[💻 Code]](https://github.com/hs-oh-prml/L-Proto)
+   - [[📄 Paper]](https://arxiv.org/pdf/2606.17416) [[💻 Code]](https://github.com/hs-oh-prml/L-Proto)
 
 - **D.-H. Cho**, H.-S. Oh, S.-B. Kim, and S.-W. Lee, “Affectron: Emotional Speech Synthesis with Affective and Contextually Aligned Nonverbal Vocalizations,” *in Proc. The 64th Annual Meeting of the Association for Computational Linguistics (ACL Findings)*, 2026.
    - [[📄 Paper]](https://arxiv.org/abs/2603.14432) [[💻 Code]](https://github.com/Choddeok/Affectron) [[🎤 Demo]](https://choddeok.github.io/Affectron/)
