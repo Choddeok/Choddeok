@@ -127,6 +127,8 @@
 
 
 ## 📑 Patents (KR)
+- Apparatus and Method for Complex-Valued Neural Network-Based Speech Waveform Generation, 	10-2026-0106629
+
 - Method and System for Emotional Speech Synthesis with Affectively and Contextually Aligned Nonverbal Vocalizations, 10-2026-0067599.
 
 - Method for Cross-Speaker Emotion Transfer in Text-to-Speech Using Disentangled Emotion Representations via Self-Supervised Distillation, 10-2025-0130127.
