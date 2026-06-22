@@ -1,3 +1,4 @@
+[CV_260622.pdf](https://github.com/user-attachments/files/29186331/CV_260622.pdf)
 ![welcome little one!](https://github.com/user-attachments/assets/290ce339-84ca-4028-b82c-0929853f590a)
 
 <h1 align="center">Deok-Hyeon Cho (조덕현) </h1>
@@ -28,7 +29,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/user-attachments/files/26257736/CV_260326.pdf"
+  <a href="https://github.com/user-attachments/files/29186336/CV_260622.pdf"
      target="_blank" rel="noopener">
     <strong>Download CV</strong>
   </a>
