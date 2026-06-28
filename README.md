@@ -1,4 +1,3 @@
-[CV_260622.pdf](https://github.com/user-attachments/files/29186331/CV_260622.pdf)
 ![welcome little one!](https://github.com/user-attachments/assets/290ce339-84ca-4028-b82c-0929853f590a)
 
 <h1 align="center">Deok-Hyeon Cho (조덕현) </h1>
