@@ -106,6 +106,12 @@
 
 ## 🏆 Awards & Achievements
 - **Awards**
+  - [2026] **Top Reviewer**  
+    NeurIPS 2026
+
+  - [2026] **Best Reviewer Award**  
+    INTERSPEECH 2026 — International Speech Communication Association (ISCA)
+
   - [2025] **Excellence Award**  
     Extreme-Noise Speech Recognition & Restoration AI Model Development Competition [(AI Frontier Challenge)](https://aiassociation.kr/board/board.asp?b_code=243&Action=content&GotoPage=1&B_CATE=BBS1) — Korea Artificial Intelligence Association (KAIA)
   
@@ -116,6 +122,7 @@
 - **Reviewer**
   - Transactions on Affective Computing (TAFFC)
   - Conference on Neural Information Processing System (NeurIPS)
+  - Conference on International Conference on Learning Representations (ICLR)
   - IEEE International Conference on Acoustics Speech and Signal Processing (ICASSP)
   - International Speech Communication Association (INTERSPEECH)
   - IEEE Spoken Language Technology Workshop (SLT)
