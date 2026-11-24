@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/user-attachments/files/29186336/CV_260622.pdf"
+  <a href="https://github.com/user-attachments/files/35308294/261124_CV_dh_cho.pdf"
      target="_blank" rel="noopener">
     <strong>Download CV</strong>
   </a>
